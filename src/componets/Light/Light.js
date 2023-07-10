@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BsFillLightbulbFill,BsFillLightbulbOffFill } from 'react-icons/bs';
+import Alert from '../../ui/Alert/Alert';
 export class Light extends React.Component {
     constructor (){
         super()
@@ -18,11 +19,12 @@ toogleShow(){
 
        <>
     
-       <h1>Light section</h1>
+       <h1>Light and Alert section</h1>
  <div className={`${this.state.isShow ? "bg-warning" : ""}`}>
         <button onClick={this.toogleShow}><ShowIcon/> </button>
 
  </div>
+ {this.state.isShow && (<Alert title="My Alert Message" variant="danger" />)}
  </>
 
     )

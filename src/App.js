@@ -1,5 +1,5 @@
 import MainPart from "./componets/Cards/MainPart";
-import { Carousel } from "./componets/Carousel/Carousel";
+import Images from "./componets/Carousel/Images";
 import Footer from "./componets/Footer/Footer";
 import { Light } from "./componets/Light";
 import Navbar from "./componets/Navbar/Navbar";
@@ -37,7 +37,7 @@ function App() {
     { <Navbar/> }
     <Todo/>
     <MainPart datas={data}/>
-    <Carousel/>
+    <Images/>
      <Light/>
     <Footer/> 
     </>

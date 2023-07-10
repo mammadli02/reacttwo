@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 
 import { MainCard } from './MainCards';
+import Images from '../Carousel/Images';
 
 export default class MainPart extends Component {
 
@@ -26,7 +27,7 @@ export default class MainPart extends Component {
 <MainCard 
 
 {...dat}/>
-
+<Images {...dat}/>
 </Grid>
 
 ))}
