@@ -47,7 +47,8 @@ import Carousel from 'react-bootstrap/Carousel';
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel></>
+    </Carousel>
+    </>
     )
   }
 }

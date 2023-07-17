@@ -3,6 +3,7 @@ import Images from "./componets/Carousel/Images";
 import Footer from "./componets/Footer/Footer";
 import { Light } from "./componets/Light";
 import Navbar from "./componets/Navbar/Navbar";
+import Pokemon from "./componets/Pokemon/Pokemon";
 import { Todo } from "./componets/Todo";
 const data=[
   {
@@ -34,12 +35,14 @@ desc:"Lorem lorem lorem lorem lorem"
 function App() {
   return (
     <>
-    { <Navbar/> }
-    <Todo/>
+     <Todo/>
+   {/* <Navbar/> 
     <MainPart datas={data}/>
     <Images/>
      <Light/>
-    <Footer/> 
+    <Footer/>   */}
+
+    {/* <Pokemon/> */}
     </>
   );
 }
